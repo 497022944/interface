@@ -14,7 +14,6 @@ ele = open(yongli_path, 'r', encoding='utf-8-sig')
 
 #选择保险公司
 baoxiangongsi = 4
-
 chenggonglv = ["成功车牌"]
 baojiashibai = ["失败车牌"]
 #引入log文件
