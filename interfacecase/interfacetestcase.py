@@ -11,7 +11,7 @@ import time
 yongli_path = os.path.dirname(os.path.abspath('.')) + "\chepai\chepaiku.txt"
 # txt文件第一行一个符号调试 sig
 ele = open(yongli_path, 'r', encoding='utf-8-sig')
-print(ele)
+print('123')
 #选择保险公司
 baoxiangongsi = 4
 chenggonglv = ["成功车牌"]
