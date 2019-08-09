@@ -54,14 +54,15 @@ class Chexingceshi(unittest.TestCase):
                 break
             for baoxiangongshixuanzhe in baoxiangongshi:
                 gongshi = baoxiangongshixuanzhe
-                url = 'http://qa.interfaces.com/api/CarInsurance/GetNewVehicleInfo?'
+                #url = 'http://qa.interfaces.com/api/CarInsurance/GetNewVehicleInfo?'
+                url = 'http://it.91bihu.me/api/CarInsurance/GetNewVehicleInfo?'
                 data = {
                             'LicenseNo': licenseno,
                             'CityCode': cict,
                             'CarType': '1',
-                            'Source': gongshi,
+                            #'Source': gongshi,#gongshi
                             'IsNeedCarVin': '0',
-                            'Agent': '17363',
+                            'Agent': '191260',
                             'MoldName': pingpai,
                             'CustKey': '4DE9B7822E0DE81FC734BC5689AB6F03',
                             'SecCode': '23c73b3be4c698971dbf320699431545',
